@@ -18,6 +18,7 @@ header h3 {
 header img {
   width: 131px;
   height: 77px;
+  margin-left: 10px;
 }
 nav {
   display: flex;
