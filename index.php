@@ -47,14 +47,16 @@ Gestire il “Database” e la visualizzazione di queste domande e risposte con 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Google Faq</title>
 </head>
 <body>
-   <?php
+<div class="google container"><?php
     foreach ($question as $value) {?>
         <h2><?php echo $value["domanda"]; ?></h2>
         <p><?php echo $value["risposta"] ?></p>
-    <?php } ?> 
+    <?php } ?></div>
+    
    
     
 
