@@ -48,14 +48,14 @@ Gestire il “Database” e la visualizzazione di queste domande e risposte con 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Google Faq</title>
 </head>
 <body>
 <header>
     <div class="d-flex">
-        <img src="./img/unnamed.jpg" alt="">
+    <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="">
         <h3>Privacy e termini</h3>
     </div>
     <nav>
