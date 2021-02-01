@@ -3,12 +3,41 @@
   padding: 0;
   box-sizing: border-box;
 }
+.d-flex {
+  display: flex;
+}
+body {
+  font-family: "Roboto";
+}
+header {
+  color: gray;
+}
+header h3 {
+  margin-top: 30px;
+}
+header img {
+  width: 131px;
+  height: 77px;
+}
+nav {
+  display: flex;
+  border-bottom: 1px solid rgb(174, 175, 177);
+}
+nav a {
+  margin-left: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
 .container {
   width: 90%;
   margin: 0 auto;
+  margin-top: 100px;
 }
 
 h2,
 p {
   margin: 30px;
+}
+.google h2 {
+  font-size: 2rem;
 }

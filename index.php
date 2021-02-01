@@ -47,10 +47,24 @@ Gestire il “Database” e la visualizzazione di queste domande e risposte con 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Google Faq</title>
 </head>
 <body>
+<header>
+    <div class="d-flex">
+        <img src="./img/unnamed.jpg" alt="">
+        <h3>Privacy e termini</h3>
+    </div>
+    <nav>
+        <a href="">Introduzione</a>
+        <a href="">Norme sulla privacy</a>
+        <a href="">Termini di servizio</a>
+        <a href="">Domande frequenti</a>
+    </nav>
+</header>
 <div class="google container"><?php
     foreach ($question as $value) {?>
         <h2><?php echo $value["domanda"]; ?></h2>
